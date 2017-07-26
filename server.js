@@ -48,9 +48,6 @@ app.get("/", function(req, res) {
 app.get("/add", function(req, res) {
   res.sendFile(path.join(__dirname, "add.html"));
 
-app.listen(PORT, function() {
-
-};
 });
 
 // Search for Specific Character (or all characters) - provides JSON
