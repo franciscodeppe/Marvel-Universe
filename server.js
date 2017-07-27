@@ -18,23 +18,23 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 // Star Wars Characters (DATA)
 // =============================================================
 var characters = [{
-  routeName: "yoda",
-  name: "Yoda",
-  role: "Jedi Master",
-  age: 900,
-  forcePoints: 2000
+  routeName: "wolverine",
+  name: "Wolverine",
+  type: "Jedi Master",
+  age: 145,
+  Group: "Xmen"
 }, {
-  routeName: "darthmaul",
-  name: "Darth Maul",
-  role: "Sith Lord",
-  age: 200,
-  forcePoints: 1200
+  routeName: "deadpool",
+  name: "DeadPool",
+  type: "Mutant",
+  age: 40,
+  Group: "NA"
 }, {
-  routeName: "obiwankenobi",
-  name: "Obi Wan Kenobi",
-  role: "Jedi Master",
-  age: 55,
-  forcePoints: 1350
+  routeName: "Spiderman",
+  name: "Spiderman",
+  type: "Mutant",
+  age: 22,
+  Group: "Avengers"
 }];
 
 // Routes
