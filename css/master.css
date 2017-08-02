@@ -1,0 +1,25 @@
+body {
+	background-color: #7c0c00;
+	color: white;
+}
+
+.background-container {
+	z-index: 1;
+	position: relative;
+	width: 100vw;
+
+}
+.background-image {
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	z-index: 1;
+}
+.search-field {
+	z-index: 5;
+	position: relative;
+	background-color: rgba(0,0,0,0);
+}
+.panel {
+	background-color: rgba(0,0,0,0);
+}
