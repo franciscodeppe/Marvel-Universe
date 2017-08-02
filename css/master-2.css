@@ -1,0 +1,91 @@
+html, body {
+    background-image: url(https://cdn.spacetelescope.org/archives/images/wallpaper2/heic1509a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100%;
+       
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    /* overflow: hidden; */
+    padding-top: 25px;
+}
+.book {
+    background-color: white;
+    width: 78%;
+    min-width: 600px;
+    height: 98%;
+    min-height: 800px;
+    display: -webkit-inline-box;
+}
+.comic {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*Comic Left----------------------------------  */
+.panel {
+    background-color:;
+    display: block;
+    height: 100%;
+    border: 1px solid black;
+    margin: 3px;
+    border-radius: 0px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row {
+    padding: 3px;
+    height: 33%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/*Comic Right---------------------  */
+.row-right {
+    padding: 3px;
+    height: 66%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.character-info {
+    height: 100%;
+    padding: 0px;
+}
+.info {
+
+}
+#character-picture {
+}
+#name {}
+
+#affiliation {
+
+}
+#bio {
+
+}
+#hero-gif {
+
+}
+#movies {
+
+}

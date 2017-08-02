@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marvel Universe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/master-2.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-11 book">
+            <div class="comic">
+                <div class="row-right">
+                    <div class="panel col-lg-6">
+                        <h1>Marvel Universe</h1>
+                        <h3>An open source character collection</h3>
+                    </div>
+                    <div class="panel col-lg-6">stuff</div>
+
+                </div>
+                <div class="row-right">
+                    <div class="panel col-lg-5">stuff</div>
+                    <div class="panel col-lg-7">
+                        <h3 class="panel-title"><strong>Add Characters</strong></h3>
+                        <form method="POST" role="form">
+
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="role">Role</label>
+                                <input type="text" class="form-control" id="role">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="age">Age</label>
+                                <input type="text" class="form-control" id="age">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="force-points">Force Points</label>
+                                <input type="text" class="form-control" id="force-points">
+                            </div>
+                             <button type="submit" class="btn btn-primary btn-md" id="add-btn"><span class="glyphicon glyphicon-fire"></span> Add to the Force</button>
+
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="comic">
+                <div class="row-right">
+                    <div class="character-info col-lg-6">
+                        <div class="panel" id="character-picture">stuff</div>
+                    </div>
+                    <div class="character-info col-lg-6">
+                        <div class="info" id="name">stuff</div>
+                        <div class="info" id="affiliation">stuff</div>
+                        <div class="info" id="bio">stuff</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="panel col-lg-6" id="hero-gif">stuff</div>
+                    <div class="panel col-lg-6" id="movies">stuff</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
